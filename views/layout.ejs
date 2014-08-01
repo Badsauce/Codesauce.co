@@ -21,6 +21,13 @@
       
     -->
     <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <style>
+	body {
+           padding-top: 70px;
+           padding-bottom: 30px;
+        }
+    </style>
     <!--
 
       Support for LESS included by default
@@ -37,8 +44,30 @@
 
   <body>
 
-    <!-- Include the view file for the current controller/route -->
-    <%- body %>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Codesauce</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+    	<%- body %>
+    </div>
 
 
     <!--
