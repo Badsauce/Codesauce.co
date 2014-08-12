@@ -38,7 +38,11 @@ module.exports.routes = {
 
   '/projects': {
     view: 'projects/index'
-  }
+  },
+
+  '/contact': {
+    view: 'home/contact'
+  },
 
   /*
   // But what if you want your home page to display
