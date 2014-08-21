@@ -40,10 +40,6 @@ module.exports.routes = {
     view: 'projects/index'
   },
 
-  '/contact': {
-    view: 'home/contact'
-  },
-
   '/resume': {
     view: 'home/resume'
   },
