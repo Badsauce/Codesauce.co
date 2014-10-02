@@ -6,6 +6,7 @@ section {
 
 footer {
   text-align: center;
+  padding-top: 3em;
 }
 
 .underCon {
@@ -23,9 +24,7 @@ footer {
 }
 
 .projectBox {
-  border-color: rgba(256,256,256,.3);
-  border-radius: 5px;  
-  border-style: solid;
+  border-bottom: solid rgba(256,256,256,.3);
   padding: 0px 10px;
   margin: 10px 0px;
 }
