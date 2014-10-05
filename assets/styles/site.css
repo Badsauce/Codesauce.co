@@ -32,3 +32,9 @@ footer {
 .help {
   text-align: center;
 }
+
+.four-oh-four {
+  display: block;
+  margin: auto;
+  padding-bottom: .5em;
+}
