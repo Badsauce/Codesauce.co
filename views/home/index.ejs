@@ -70,15 +70,27 @@
 
 </section>
 
+
 <section id="TODO">
 	<h2>//TODO</h2>
-	<ul>
-		<li>Use Trello's API to populate this list</li>
-		<li>Redo the color scheme</li>
-		<li>Redo the nav bar and add my new logo!</li>
+	<ul id="todo-list">
 	</ul>
 </section>
 
+
 <script type="text/javascript">
         $(".about-button").addClass("active");
+
+	$.get("https://api.trello.com/1/lists/525c6d05ff3c134f4300034c?key=9cca69ccf61874c3aa6cdec888bec6e0&cards=open", function(toDo) {
+		var todoList = $('#todo-list')
+
+		$.each(toDo.cards, function(index, card) {
+			$('<li>')
+			.text(card.name)
+			.addClass('todo-item')
+			.appendTo(todoList);
+		});
+	});
+	
+	
 </script>
