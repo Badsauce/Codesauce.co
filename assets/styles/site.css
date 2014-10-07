@@ -1,3 +1,8 @@
+body {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
 section {
   max-width: 800px;
   margin-left: auto;
@@ -37,4 +42,25 @@ footer {
   display: block;
   margin: auto;
   padding-bottom: .5em;
+}
+
+.half-circle-bottom{
+  margin-top: -30px;
+  width: 250px;
+  height: 70px;
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: #343434;
+  margin: auto;
+}
+
+.navbar-inverse{
+  background-image: none;
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.nav-container{
+  background-color: #343434;
 }
