@@ -44,10 +44,10 @@ footer {
   padding-bottom: .5em;
 }
 
-.half-circle-bottom{
+.half-circle-bottom {
   margin-top: -30px;
-  width: 250px;
-  height: 70px;
+  width: 100px;
+  height: 50px;
   border-radius: 50% / 100%;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -55,12 +55,36 @@ footer {
   margin: auto;
 }
 
-.navbar-inverse{
+.navbar-inverse {
   background-image: none;
   background-color: transparent;
   border-bottom-color: transparent;
 }
 
-.nav-container{
+.nav-container {
   background-color: #343434;
+  width: auto;
 }
+
+.navbar-nav {
+  width: 458px;
+  margin: auto;
+  padding-left: 9px;
+  float: none;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+  min-width: 82px;
+}
+
+.site-logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+
