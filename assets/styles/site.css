@@ -79,6 +79,10 @@ footer {
   min-width: 82px;
 }
 
+.navbar-nav>li>a.logo-link{
+  padding: 0;
+}
+
 .site-logo {
   display: inline-block;
   width: 100px;
