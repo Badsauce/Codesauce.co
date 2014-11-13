@@ -1,2 +1,0 @@
-# codesauce
-### a Sails application
