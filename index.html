@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeSauce</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!--
+
+      Stylesheets
+      ========================
+
+      You can link any CSS, LESS, or image files in your `assets` directory
+      as you would normally: using <link/> tags.
+
+    -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/site.css" rel="stylesheet" type="text/css">
+    <!-- Jquery cause I don't know how to internet without it-->
+    <script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+
+    <!--
+
+      Support for LESS included by default
+      ================================================
+
+      LESS files are automatically compiled when they change using the Gruntfile
+      located in the top-level of this Sails app.  If you run into issues with styles
+      not reloading, check the Sails log output in your console for LESS compilation errors.
+      If necessary, shut down and then lift your app again.
+
+    -->
+
+  </head>
+
+  <body>
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container nav-container">
+            <ul class="nav navbar-nav">
+              <li class="about-button"><a href="/">About</a></li>
+              <li class="blog-button"><a href="http://blog.codesauce.co/">Blog</a></li>
+	      <li >
+		<a class="logo-link" href='/'>
+	          <img class="site-logo" src="images/codesauce-flat.svg" />
+		</a>
+	      </li>
+              <li class="projects-button"><a href="/projects">Projects</a></li>
+              <li class="resume-button dropdown">
+	  	  <a data-toggle="dropdown" href="#">Resume</a>
+		  <ul class="dropdown-menu">
+		    <li><a href="/documents/Resume2014.pdf">Digital</a></li>
+		    <li><a href="/documents/Resume2014-printfriendly.pdf">Print-Friendly</a></li>
+		  </ul>
+	      </li>
+            </ul>
+      </div>
+      <div class="half-circle-bottom"></div>
+    </div>
+
+    <div class="container">
+	<div class="jumbotron underCon">
+		<h3>This site is under construction, check out my
+			<a href="/#TODO">//TODO!</a>
+		</h3>
+	</div>
+    	<div class="jumbotron">
+   <h1>Nick Rutowski</h1>
+   <h2>Web Developer - Geek - Maker of Things</h2>
+</div>
+
+<section>
+
+   <p>
+      Hi! I'm Nick Rutowski, some people know me as Badsauce or Codesauce (most of those people are me).
+   </p>
+
+   <p>
+      I'm a big fan of web design, I've dedicated a lot of time to creating enterprise websites using
+      <a href="http://www.asp.net/mvc">
+         ASP.NET MVC
+      </a>.
+      I've also spent some time getting paid to build sites using
+      <a href="http://cakephp.org/">
+         CakePHP
+      </a>
+      on the
+      <a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)">
+      LAMP
+      </a>
+      stack - Those were dark days, I try not to think about them.
+   </p>
+
+   <p>
+      In my free time I have messed around with a slew of other web technologies, on the MVC front I've dabbled in
+      <a href="https://www.djangoproject.com/">
+         Django
+      </a>
+      and recently started exploring the
+      <a href="http://nodejs.org/">
+         Node.js
+      </a>
+      space with
+      <a href"http://sailsjs.org/#/">
+         Sails.js
+      </a>
+      (This site is built on sails =O). On the subject of javascript, I've done some data visualization with
+      <a href="http://d3js.org/">
+         d3.js
+      </a>
+      and loved every minute of it.
+   </p>
+
+   <p>
+     I write a lot of
+     <a href="https://isocpp.org/">C++</a>
+     and
+     <a href="https://www.python.org/">Python</a>
+     for scholarly pursuits like http routing and learning how pointers work.
+   </p>
+
+
+   <p>
+      Places you can probably find me:
+      <a href="mailto:nickrutowski@gmail.com?Subject=I%20Admire%Your%20lifestyle">
+         Email
+      </a>,
+      <a href="https://github.com/Badsauce">
+         Github
+      </a>, or
+      <a href="https://twitter.com/BadSauce">
+         Twitter
+      </a>
+      .
+   </p>
+
+</section>
+
+
+<section id="TODO">
+	<h2>//TODO</h2>
+	<ul id="todo-list">
+	<li class="todo-item">Theme the site</li><li class="todo-item">Bookbrainer breakdown blog post</li><li class="todo-item">Go digging for worthwhile class projects to add to projects page</li></ul>
+</section>
+
+	<footer>
+		All content licensed under the
+		<a href="http://creativecommons.org/licenses/by/4.0/">
+			Creative Commons Attribution License
+		</a>
+		unless noted otherwise.
+	</footer>
+    </div>
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can import any js files in your `assets` directory as you would
+      normally: using <script></script> tags.
+
+      Here's an example of importing a few dependencies, in order:
+    -->
+    <!-- Bring in the socket.io client -->
+    <script type="text/javascript" src="/js/socket.io.js"></script>
+    <!-- then beef it up with some convenience logic for talking to Sails.js -->
+    <script type="text/javascript" src="/js/sails.io.js"></script>
+    <!-- listen on socket.io for incoming messages -->
+    <script type="text/javascript" src="/js/app.js"></script>
+    <!-- BOOTSTRAP!!!! =D durrr yess -->
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- Your scripts here? -->
+
+
+    <!--
+
+      Looking for client-side CoffeeScript or TypeScript?
+      ================================================
+
+      CoffeeScript and TypeScript precompilation are not installed by default,
+      but if you'd like to mix those features in, it is straightforward to
+      `npm install` the relevant grunt community modules and modify your Gruntfile
+      to use them.
+
+    -->
+
+
+
+    <!--
+
+      Another way: The Asset Linker
+      ========================
+
+      Sails supports a Grunt-based asset linker, to automatically inject
+      <link> and <script> tags, as well any client-side templates you're using
+      into your HTML layouts and views, respecting dependencies.
+
+      You created this Sails app with the asset linker disabled.
+      If you change your mind, check out the docs on the subject:
+      http://sailsjs.org/#!documentation/asset-management
+
+    -->
+    </body>
+</html>

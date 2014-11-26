@@ -1,0 +1,94 @@
+body {
+  padding-top: 225px;
+  padding-bottom: 30px;
+}
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding-top: 3em;
+}
+
+.underCon {
+  background: #d35400;
+  display: inline-block;
+  padding: .5em;
+}
+
+.underCon h3 {
+  margin: 0;
+}
+
+.underCon a {
+  text-shadow: 2px 2px rgba(0,0,0,.3);
+}
+
+.projectBox {
+  border-bottom: solid rgba(256,256,256,.3);
+  padding: 0px 10px;
+  margin: 10px 0px;
+}
+
+.help {
+  text-align: center;
+}
+
+.four-oh-four {
+  display: block;
+  margin: auto;
+  padding-bottom: .5em;
+}
+
+.half-circle-bottom {
+  margin-top: -30px;
+  width: 200px;
+  height: 100px;
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: #343434;
+  margin: auto;
+}
+
+.navbar-inverse {
+  background-image: none;
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.nav-container {
+  background-color: #343434;
+  width: auto;
+}
+
+.navbar-nav {
+  width: 558px;
+  margin: auto;
+  padding-left: 9px;
+  float: none;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+  min-width: 82px;
+}
+
+.navbar-nav>li>a.logo-link{
+  padding: 0;
+}
+
+.site-logo {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: -100px;
+}
+
+
