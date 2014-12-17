@@ -6,6 +6,7 @@
 .rigging
 .tmp
 
+.vagrant
 
 ########################
 # node.js / npm
