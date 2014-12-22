@@ -1,5 +1,5 @@
 {
-  "name": "typography",
+  "name": "project-name",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -30,11 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/root/typography.git"
+    "url": "git://github.com/vagrant/project-name.git"
   },
-  "author": "root",
-  "license": "",
-  "devDependencies": {
-    "grunt": "~0.4.2"
-  }
+  "author": "vagrant",
+  "license": ""
 }
