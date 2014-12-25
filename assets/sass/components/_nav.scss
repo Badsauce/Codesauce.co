@@ -1,5 +1,6 @@
 header {
-  background-color: $navbar;
+  position: relative;
+  background-color: none;
   height: 15vh;
   min-height: 100px;
   display: flex;
@@ -7,6 +8,24 @@ header {
   align-items: center;
   padding: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, .5);
+  width: 100%;
+}
+
+.nav {
+  ul, a {
+    z-index: 11;
+  }
+}
+
+.navBackdrop {
+  position: absolute;
+  height: 7.5vh;
+  min-height: 50px;
+  background-color: $navbar;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .logo {

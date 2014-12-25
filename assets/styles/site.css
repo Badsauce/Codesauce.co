@@ -85,7 +85,8 @@ section {
 
 /* line 1, ../sass/components/_nav.scss */
 header {
-  background-color: #343434;
+  position: relative;
+  background-color: none;
   height: 15vh;
   min-height: 100px;
   display: -webkit-box;
@@ -102,20 +103,38 @@ header {
           align-items: center;
   padding: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
+  width: 100%;
 }
 
-/* line 12, ../sass/components/_nav.scss */
+/* line 15, ../sass/components/_nav.scss */
+.nav ul, .nav a {
+  z-index: 11;
+}
+
+/* line 20, ../sass/components/_nav.scss */
+.navBackdrop {
+  position: absolute;
+  height: 7.5vh;
+  min-height: 50px;
+  background-color: #343434;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* line 31, ../sass/components/_nav.scss */
 .logo {
   border-radius: 50%;
   width: 14vh;
   height: 14vh;
 }
 
-/* line 18, ../sass/components/_nav.scss */
+/* line 37, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 21, ../sass/components/_nav.scss */
+/* line 40, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -126,28 +145,28 @@ header {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 30, ../sass/components/_nav.scss */
+/* line 49, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 18, ../sass/components/_nav.scss */
+  /* line 37, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 40, ../sass/components/_nav.scss */
+/* line 59, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 40, ../sass/components/_nav.scss */
+  /* line 59, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 47, ../sass/components/_nav.scss */
+/* line 66, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -160,11 +179,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 60, ../sass/components/_nav.scss */
+/* line 79, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 63, ../sass/components/_nav.scss */
+/* line 82, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #343434;
