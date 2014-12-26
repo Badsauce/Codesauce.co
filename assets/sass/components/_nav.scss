@@ -1,12 +1,17 @@
 header {
   position: relative;
-  background-color: none;
-  height: 15vh;
-  min-height: 100px;
+
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+
+  background-color: none;
+  height: 20vh;
+  min-height: 100px;
+
   padding: .5em;
+  padding-top: 0;
+
   border-bottom: 1px solid rgba(1, 2, 3, .5);
   width: 100%;
 }
@@ -19,7 +24,7 @@ header {
 
 .navBackdrop {
   position: absolute;
-  height: 7.5vh;
+  height: 10vh;
   min-height: 50px;
   background-color: $navbar;
   width: 100%;
@@ -30,8 +35,13 @@ header {
 
 .logo {
   border-radius: 50%;
-  width: 14vh;
-  height: 14vh;
+  width: 19vh;
+  height: 19vh;
+  padding: 0 .5em;
+}
+
+.logo-link {
+  align-self: center;
 }
 
 .desktop {
