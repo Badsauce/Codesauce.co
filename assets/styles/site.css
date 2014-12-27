@@ -101,18 +101,33 @@ header {
   background-color: none;
   height: 20vh;
   min-height: 100px;
-  padding: .5em;
-  padding-top: 0;
+  padding-bottom: .5em;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
   width: 100%;
 }
 
-/* line 20, ../sass/components/_nav.scss */
+/* line 19, ../sass/components/_nav.scss */
 .nav ul, .nav a {
   z-index: 11;
 }
+/* line 23, ../sass/components/_nav.scss */
+.nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5vh 0;
+}
 
-/* line 25, ../sass/components/_nav.scss */
+/* line 32, ../sass/components/_nav.scss */
 .navBackdrop {
   position: absolute;
   height: 10vh;
@@ -124,7 +139,7 @@ header {
   z-index: 10;
 }
 
-/* line 36, ../sass/components/_nav.scss */
+/* line 43, ../sass/components/_nav.scss */
 .logo {
   border-radius: 50%;
   width: 19vh;
@@ -132,18 +147,18 @@ header {
   padding: 0 .5em;
 }
 
-/* line 43, ../sass/components/_nav.scss */
+/* line 50, ../sass/components/_nav.scss */
 .logo-link {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
 }
 
-/* line 47, ../sass/components/_nav.scss */
+/* line 54, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 50, ../sass/components/_nav.scss */
+/* line 57, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -154,28 +169,28 @@ header {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 59, ../sass/components/_nav.scss */
+/* line 66, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 47, ../sass/components/_nav.scss */
+  /* line 54, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 69, ../sass/components/_nav.scss */
+/* line 76, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 69, ../sass/components/_nav.scss */
+  /* line 76, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 76, ../sass/components/_nav.scss */
+/* line 83, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -188,11 +203,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 89, ../sass/components/_nav.scss */
+/* line 96, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 92, ../sass/components/_nav.scss */
+/* line 99, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #343434;
