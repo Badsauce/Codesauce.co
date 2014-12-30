@@ -99,9 +99,9 @@ header {
       -ms-flex-align: start;
           align-items: flex-start;
   background-color: none;
-  height: 20vh;
+  height: 25vh;
   min-height: 100px;
-  padding-bottom: .5em;
+  padding: .5em 0;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
   width: 100%;
 }
@@ -137,7 +137,7 @@ header {
 /* line 39, ../sass/components/_nav.scss */
 .navBackdrop {
   position: absolute;
-  height: 10vh;
+  height: 12.5vh;
   min-height: 50px;
   background-color: #343434;
   width: 100%;
@@ -148,24 +148,25 @@ header {
 
 /* line 50, ../sass/components/_nav.scss */
 .logo {
-  width: 19vh;
-  height: 19vh;
-  padding: .5em;
-  margin: 2%;
+  width: 24vh;
+  height: 24vh;
 }
 
-/* line 57, ../sass/components/_nav.scss */
+/* line 55, ../sass/components/_nav.scss */
 .logo-link {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
+  background-color: #343434;
+  border-radius: 50%;
+  padding: .75em;
 }
 
-/* line 61, ../sass/components/_nav.scss */
+/* line 62, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 64, ../sass/components/_nav.scss */
+/* line 65, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -176,28 +177,28 @@ header {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 73, ../sass/components/_nav.scss */
+/* line 74, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 61, ../sass/components/_nav.scss */
+  /* line 62, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 83, ../sass/components/_nav.scss */
+/* line 84, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 83, ../sass/components/_nav.scss */
+  /* line 84, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 90, ../sass/components/_nav.scss */
+/* line 91, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -210,11 +211,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 103, ../sass/components/_nav.scss */
+/* line 104, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 106, ../sass/components/_nav.scss */
+/* line 107, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #343434;

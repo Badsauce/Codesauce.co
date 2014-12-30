@@ -6,10 +6,10 @@ header {
   align-items: flex-start;
 
   background-color: none;
-  height: 20vh;
+  height: 25vh;
   min-height: 100px;
 
-  padding-bottom: .5em;
+  padding: .5em 0;
 
   border-bottom: 1px solid rgba(1, 2, 3, .5);
   width: 100%;
@@ -38,7 +38,7 @@ header {
 
 .navBackdrop {
   position: absolute;
-  height: 10vh;
+  height: 12.5vh;
   min-height: 50px;
   background-color: $navbar;
   width: 100%;
@@ -48,14 +48,15 @@ header {
 }
 
 .logo {
-  width: 19vh;
-  height: 19vh;
-  padding: .5em;
-  margin: 2%;
+  width: 24vh;
+  height: 24vh;
 }
 
 .logo-link {
   align-self: center;
+  background-color: $navbar;
+  border-radius: 50%;
+  padding: .75em;
 }
 
 .desktop {
