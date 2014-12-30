@@ -124,10 +124,17 @@ header {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 15%;
   padding: 2.5vh 0;
 }
-
 /* line 32, ../sass/components/_nav.scss */
+.nav li {
+  text-align: center;
+  padding: 2%;
+  width: 50%;
+}
+
+/* line 39, ../sass/components/_nav.scss */
 .navBackdrop {
   position: absolute;
   height: 10vh;
@@ -139,25 +146,26 @@ header {
   z-index: 10;
 }
 
-/* line 43, ../sass/components/_nav.scss */
+/* line 50, ../sass/components/_nav.scss */
 .logo {
   width: 19vh;
   height: 19vh;
-  padding: 0 .5em;
+  padding: .5em;
+  margin: 2%;
 }
 
-/* line 49, ../sass/components/_nav.scss */
+/* line 57, ../sass/components/_nav.scss */
 .logo-link {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
 }
 
-/* line 53, ../sass/components/_nav.scss */
+/* line 61, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 56, ../sass/components/_nav.scss */
+/* line 64, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -168,28 +176,28 @@ header {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 65, ../sass/components/_nav.scss */
+/* line 73, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 53, ../sass/components/_nav.scss */
+  /* line 61, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 75, ../sass/components/_nav.scss */
+/* line 83, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 75, ../sass/components/_nav.scss */
+  /* line 83, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 82, ../sass/components/_nav.scss */
+/* line 90, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -202,11 +210,11 @@ header {
   color: #EFDA51;
 }
 
-/* line 95, ../sass/components/_nav.scss */
+/* line 103, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 98, ../sass/components/_nav.scss */
+/* line 106, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #343434;
@@ -225,4 +233,9 @@ header {
           align-items: center;
   font-size: 200%;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
+}
+
+/* line 1, ../sass/components/_dropdown.scss */
+ul .dropdown-menu {
+  display: none;
 }
