@@ -99,7 +99,7 @@ header {
       -ms-flex-align: start;
           align-items: flex-start;
   background-color: none;
-  height: 25vh;
+  height: 21vh;
   min-height: 100px;
   padding: .5em 0;
   border-bottom: 1px solid rgba(1, 2, 3, 0.5);
@@ -137,7 +137,7 @@ header {
 /* line 39, ../sass/components/_nav.scss */
 .navBackdrop {
   position: absolute;
-  height: 12.5vh;
+  height: 10.5vh;
   min-height: 50px;
   background-color: #343434;
   width: 100%;
@@ -148,8 +148,8 @@ header {
 
 /* line 50, ../sass/components/_nav.scss */
 .logo {
-  width: 24vh;
-  height: 24vh;
+  width: 20vh;
+  height: 20vh;
 }
 
 /* line 55, ../sass/components/_nav.scss */
@@ -159,7 +159,7 @@ header {
           align-self: center;
   background-color: #343434;
   border-radius: 50%;
-  padding: .75em;
+  padding: .65em;
 }
 
 /* line 62, ../sass/components/_nav.scss */
