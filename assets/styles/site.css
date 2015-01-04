@@ -84,7 +84,7 @@ section {
 }
 
 /* line 1, ../sass/components/_nav.scss */
-header {
+nav {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -239,4 +239,30 @@ header {
 /* line 1, ../sass/components/_dropdown.scss */
 ul .dropdown-menu {
   display: none;
+  width: 100%;
+}
+
+/* line 6, ../sass/components/_dropdown.scss */
+.dropdown {
+  position: relative;
+}
+
+/* line 10, ../sass/components/_dropdown.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+}
+/* line 13, ../sass/components/_dropdown.scss */
+.dropdown-menu li {
+  background-color: #343434;
+  width: 100%;
+}
+/* line 17, ../sass/components/_dropdown.scss */
+.dropdown-menu li:hover {
+  background-color: #272727;
+}
+
+/* line 23, ../sass/components/_dropdown.scss */
+.dropdown:hover > .dropdown-menu {
+  display: block;
 }
