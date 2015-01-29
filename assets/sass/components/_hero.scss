@@ -1,0 +1,17 @@
+.hero {
+  max-width: 960px;
+  width: 60%;
+  background-color: $heroBackground;
+  margin: 3vh auto;
+  padding: 1.5em;
+  text-align: center;
+  border-radius: .2em;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}

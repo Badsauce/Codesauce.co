@@ -1,4 +1,4 @@
-/* line 5, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -66,7 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../sass/components/_base.scss */
 body {
   background-color: #060606;
-  color: #73fff1;
+  color: #cccac6;
 }
 
 /* line 6, ../sass/components/_base.scss */
@@ -102,15 +102,14 @@ nav {
   height: 21vh;
   min-height: 100px;
   padding: .5em 0;
-  border-bottom: 1px solid rgba(1, 2, 3, 0.5);
   width: 100%;
 }
 
-/* line 19, ../sass/components/_nav.scss */
+/* line 17, ../sass/components/_nav.scss */
 .nav ul, .nav a {
   z-index: 11;
 }
-/* line 23, ../sass/components/_nav.scss */
+/* line 21, ../sass/components/_nav.scss */
 .nav ul {
   display: -webkit-box;
   display: -webkit-flex;
@@ -127,14 +126,14 @@ nav {
   width: 15%;
   padding: 2.5vh 0;
 }
-/* line 32, ../sass/components/_nav.scss */
+/* line 30, ../sass/components/_nav.scss */
 .nav li {
   text-align: center;
   padding: 2%;
   width: 50%;
 }
 
-/* line 39, ../sass/components/_nav.scss */
+/* line 37, ../sass/components/_nav.scss */
 .navBackdrop {
   position: absolute;
   height: 10.5vh;
@@ -146,13 +145,13 @@ nav {
   z-index: 10;
 }
 
-/* line 50, ../sass/components/_nav.scss */
+/* line 48, ../sass/components/_nav.scss */
 .logo {
   width: 20vh;
   height: 20vh;
 }
 
-/* line 55, ../sass/components/_nav.scss */
+/* line 53, ../sass/components/_nav.scss */
 .logo-link {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
@@ -162,11 +161,11 @@ nav {
   padding: .65em;
 }
 
-/* line 62, ../sass/components/_nav.scss */
+/* line 60, ../sass/components/_nav.scss */
 .desktop {
   display: none;
 }
-/* line 65, ../sass/components/_nav.scss */
+/* line 63, ../sass/components/_nav.scss */
 .desktop li {
   display: inline-block;
   border: 1px solid #EFDA51;
@@ -177,28 +176,28 @@ nav {
   -webkit-transition: background-color .5s;
           transition: background-color .5s;
 }
-/* line 74, ../sass/components/_nav.scss */
+/* line 72, ../sass/components/_nav.scss */
 .desktop li:hover {
   background: #DEB73D;
 }
 @media (min-width: 800px) {
-  /* line 62, ../sass/components/_nav.scss */
+  /* line 60, ../sass/components/_nav.scss */
   .desktop {
     display: block;
   }
 }
 
-/* line 84, ../sass/components/_nav.scss */
+/* line 82, ../sass/components/_nav.scss */
 .mobile {
   display: block;
 }
 @media (min-width: 800px) {
-  /* line 84, ../sass/components/_nav.scss */
+  /* line 82, ../sass/components/_nav.scss */
   .mobile {
     display: none;
   }
 }
-/* line 91, ../sass/components/_nav.scss */
+/* line 89, ../sass/components/_nav.scss */
 .mobile button {
   width: 1.7em;
   height: 1.7em;
@@ -211,11 +210,11 @@ nav {
   color: #EFDA51;
 }
 
-/* line 104, ../sass/components/_nav.scss */
+/* line 102, ../sass/components/_nav.scss */
 .mobile-menu {
   display: none;
 }
-/* line 107, ../sass/components/_nav.scss */
+/* line 105, ../sass/components/_nav.scss */
 .mobile-menu li {
   color: #EFDA51;
   background-color: #343434;
@@ -265,4 +264,23 @@ ul .dropdown-menu {
 /* line 23, ../sass/components/_dropdown.scss */
 .dropdown:hover > .dropdown-menu {
   display: block;
+}
+
+/* line 1, ../sass/components/_hero.scss */
+.hero {
+  max-width: 960px;
+  width: 60%;
+  background-color: #343434;
+  margin: 3vh auto;
+  padding: 1.5em;
+  text-align: center;
+  border-radius: .2em;
+}
+/* line 10, ../sass/components/_hero.scss */
+.hero h1 {
+  font-size: 3em;
+}
+/* line 14, ../sass/components/_hero.scss */
+.hero h2 {
+  font-size: 2em;
 }
