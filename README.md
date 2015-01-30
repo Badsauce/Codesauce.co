@@ -9,6 +9,7 @@ this is the award-winning repo for the award-winning personal website of Nick Ru
 * [Node.js](http://nodejs.org/)
 * [Sails.js](http://sailsjs.org/#/)
 * [Sass](http://sass-lang.com/)
+* [Autoprefixer](https://github.com/postcss/autoprefixer)
 
 ### Local Development Setup
 
