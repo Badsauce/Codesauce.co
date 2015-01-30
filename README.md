@@ -12,7 +12,12 @@ this is the award-winning repo for the award-winning personal website of Nick Ru
 
 ### Local Development Setup
 
-Working on a Vagrantfile right now
+Vagrantfile included. 
+`vagrant up` 
+`vagrant ssh`
+`cd /vagrant`
+`sails lift`
+to run the server at localhost:1337
 
 ### Configuration Variables
 
