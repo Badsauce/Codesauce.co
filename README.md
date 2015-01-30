@@ -26,3 +26,5 @@ None so far
 ### Deploy
 
 Clone this repo onto a machine with Sails.js and run "sails lift" from the root directory
+ 
+Additional dependencies auto-prefixer
